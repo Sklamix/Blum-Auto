@@ -30,7 +30,7 @@ check = gw.getWindowsWithTitle(window_name)
 if not check:
     print(Back.RED + "| Window - Don't find!" + Style.RESET_ALL)
 else:
-    print(Back.GREEN + "| Window Find - | Нажміть 'q' для паузи" + Style.RESET_ALL)
+    print(Back.GREEN + "| Window Find - | Press 'q' to pause" + Style.RESET_ALL)
 
 telegram_window = check[0]
 paused = False
